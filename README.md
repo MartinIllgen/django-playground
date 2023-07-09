@@ -29,3 +29,14 @@ creating new models in the models.py of the app directory. Run makemigrations an
 
 ### adding new models to admin site
 register new models to admin.py to make them show up in the admin site, superuser can login and add new events or participants.
+
+## #4 customizing admin site for new models
+
+### admin.py
+creating custom admin views for events and participants. Define all fields that should show up in admin site list view for the model.
+
+### models.py
+overwrite default string representation of the model.
+
+### settings.py
+setting language code and default date formatting.
