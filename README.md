@@ -21,3 +21,11 @@ The admin site is available at http://localhost:8080/admin - superuser can login
 ### python manage.py startapp events
 creates a new app in the project. A blank app template for further development.
 Add the new app to INSTALLED_APPS section in settings.py.
+
+## #3 start implementing the app
+
+### creating new models for the app
+creating new models in the models.py of the app directory. Run makemigrations and migrate after adding new models to update databaseinformation.
+
+### adding new models to admin site
+register new models to admin.py to make them show up in the admin site, superuser can login and add new events or participants.
